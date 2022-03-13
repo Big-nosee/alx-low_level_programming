@@ -4,7 +4,7 @@
  * main - prints the size of various types
  * Return: 0 if exited properly, non-zero if otherwise
 */
-int main(void) 
+int main(void)
 {
 	char chartype;
 	int inttype;
