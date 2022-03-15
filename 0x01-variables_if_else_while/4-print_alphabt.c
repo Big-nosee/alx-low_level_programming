@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	char c != 'e';
+	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
