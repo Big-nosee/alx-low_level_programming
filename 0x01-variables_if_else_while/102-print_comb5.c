@@ -10,11 +10,11 @@ int main(void)
 
 	for (c = '0'; c <= '9'; c++)
 	{
-		for (d = '0'; d <= '9'; d++)
+		for (d = c + 1; d <= '9'; d++)
 		{
-			for (e = c + 1; e <= '9'; e++)
+			for (e = '0'; e <= '9'; e++)
 			{
-				for (f = d + 1; f <= '9'; f++)
+				for (f = e + 1; f <= '9'; f++)
 				{
 					putchar(c);
 					putchar(d);
@@ -23,7 +23,7 @@ int main(void)
 
 					if (c == '9' && d == '9' && e == '9' && f == '9')
 						continue;
-					
+					putchar(' ');
 					putchar(',');
 					putchar(' ');
 				}
