@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (e = '0'; e <= '9'; e++)
 			{
-				for (f = e + '1'; f <= '9'; f++)
+				for (f = e + 1; f <= '9'; f++)
 				{
 					putchar(c);
 					putchar(d);
@@ -29,4 +29,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}    
+}
