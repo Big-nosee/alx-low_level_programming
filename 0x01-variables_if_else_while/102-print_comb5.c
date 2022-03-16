@@ -8,17 +8,17 @@ int main(void)
 {
 	int c, d;
 
-	for (c = '0'; c <= 98; c++)
+	for (c = '0'; c <= '9''8'; c++)
 	{
-		for (d = c + 1; d <= 99; d++)
+		for (d = c + 1; d <= '9''9'; d++)
 		{
-			putchar(c);
-			putchar(c);
+			putchar((c / 10) + '0');
+			putchar((c % 10) + '0');
 			putchar(' ');
-			putchar(d);
-			putchar(d);
+			putchar((d / 10) + '0');
+			putchar((d % 10) + '0');
 
-			if (c == 98 && d == 99)
+			if (c == '9''8' && d == '9''9')
 				continue;
 			putchar(',');
 			putchar(' ');
