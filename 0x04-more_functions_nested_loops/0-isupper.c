@@ -1,12 +1,7 @@
-/*
- * File: 0-isupper.
- * Auth: Samson Okehi
-*/
-
 #include "main.h"
 
 /**
- * _isupper - checks for uppercase characters.
+ * _isupper - checks for uppercase characters
  * Returns: 1 if c is uppercase
  * Returns: 0 if otherwise
 */
