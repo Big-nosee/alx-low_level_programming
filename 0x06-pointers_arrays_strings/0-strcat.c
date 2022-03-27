@@ -1,9 +1,4 @@
-/**
- * File: 0-strcat.c
- * Auth: Samson Okehi
- */
-
-#include "main.h"
+include "main.h"
 
 /**
  * strcat - contatenates the string pointed to by @src, including the terminating
